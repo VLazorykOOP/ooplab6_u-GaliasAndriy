@@ -9,6 +9,9 @@ namespace SpaceExample2 {
 namespace SpaceExample3 {
 	int mainExample3();
 }
+namespace Inheritance {
+	int Task1();
+}
 
 
 
