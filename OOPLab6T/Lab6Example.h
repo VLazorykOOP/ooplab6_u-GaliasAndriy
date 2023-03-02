@@ -12,6 +12,9 @@ namespace SpaceExample3 {
 namespace Inheritance {
 	int Task1();
 }
+namespace AbstractClasses {
+	int Task2();
+}
 
 
 

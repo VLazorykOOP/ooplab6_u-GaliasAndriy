@@ -140,6 +140,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Example1.cpp" />
     <ClCompile Include="Example2.cpp" />
     <ClCompile Include="Lab6Example.cpp" />

@@ -15,7 +15,7 @@ void Example()
 {
 	std::cout << "OOP. Example for laboratory work #6.\n";
 
-	char ch = '5';
+	char ch = '6';
 	do {
 		system("cls");
 		MenuExample();
@@ -28,12 +28,13 @@ void Example()
 		case '2':  SpaceExample2::mainExample2();   break;
 		case '3':  SpaceExample3::mainExample3();   break;
 		case '4':  Inheritance::Task1(); break;
-		case '5':  return;
+		case '5':  AbstractClasses::Task2(); break;
+		case '6':  return;
 		case 'e':  return;
 		}
 		std::cout << " Press any key and enter\n";
 		ch = std::cin.get();
-	} while (ch != '6');
+	} while (ch != '7');
 
 	return ;
 }
