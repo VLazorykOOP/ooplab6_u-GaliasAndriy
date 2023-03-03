@@ -15,6 +15,9 @@ namespace Inheritance {
 namespace AbstractClasses {
 	int Task2();
 }
+namespace Figures {
+	int Task3();
+}
 
 
 

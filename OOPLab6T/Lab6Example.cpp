@@ -9,6 +9,7 @@ void MenuExample() {
 	std::cout << "    Choose a task  \n";
 	std::cout << "    1 - Task 1 (inheritance, virtual/non-virtual classes, scheme) \n";
 	std::cout << "    2 - Task 2 (Abstract classes)\n";
+	std::cout << "    3 - Task 3 (Figure classes)\n";
 	std::cout << "    4 - Exit \n";
 }
 void Example()
@@ -29,13 +30,14 @@ void Example()
 		//case '3':  SpaceExample3::mainExample3();   break;
 		case '1':  Inheritance::Task1(); break;
 		case '2':  AbstractClasses::Task2(); break;
+		case '3':  Figures::Task3(); break;
 		case '4':  return;
 		case 'e':  return;
 		case 'E':  return;
 		}
 		std::cout << " Press any key and enter\n";
 		ch = std::cin.get();
-	} while (ch != '5');
+	} while (ch != '4');
 
 	return ;
 }

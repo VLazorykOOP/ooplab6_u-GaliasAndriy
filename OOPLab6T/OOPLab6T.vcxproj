@@ -143,6 +143,7 @@
     <ClCompile Include="Employee.cpp" />
     <ClCompile Include="Example1.cpp" />
     <ClCompile Include="Example2.cpp" />
+    <ClCompile Include="Figures.cpp" />
     <ClCompile Include="Lab6Example.cpp" />
     <ClCompile Include="OOPLab6T.cpp" />
     <ClCompile Include="Example3.cpp" />
